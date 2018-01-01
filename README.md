@@ -1,5 +1,4 @@
-# GeodatabaseSchemas
-I wish to commit my chages now
-If you want to embed images, this is how you do it:
+## GeodatabaseSchemas
+Here is a smple of twhat the diagram looks like:
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
