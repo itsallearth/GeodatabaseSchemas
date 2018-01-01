@@ -11,4 +11,11 @@ The script PrintGeoDatabaseSchemas.py will create a new folder called GEOschemas
 #7  workspace = env.workspace = r'Database Connections\GIS_MASTER.sde'. 
     Replace r'Database Connections\GIS_MASTER.sde' with the name and path of any database that you want to diagram. 
     note: You can easily find the correct syntax for the database path by opening ArcMap, opening the Python window %%%  , then opening the catalog window and dragging your database into the Python window  %%%  you already have open. When you drag the database into the Python window the path will be copied there.  Copy that path and replace r'Database Connections\GIS_MASTER.sde' with the path you just copied.
-b.	When you run the script it will create a folder called GEOschemas. Inside the GEOschemas folder you will see three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. You will find the results of the script in these three files.
+b.	When you run the script it will create a folder called GEOschemas. Inside the GEOschemas folder you will see three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. You will find the results of the script in these three files
+
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
