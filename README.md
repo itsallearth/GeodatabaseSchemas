@@ -1,4 +1,4 @@
 ## GeodatabaseSchemas designer
-Here is a sample of a portion of the finished schema:
+Here is a sample portion of a finished geodatabase schema:
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
