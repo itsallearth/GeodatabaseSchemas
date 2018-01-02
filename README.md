@@ -21,7 +21,7 @@ note: You can easily find the correct syntax for the database path by:
 3. Copy that path and replace ```r'Database Connections\GIS_MASTER.sde'``` with the path you just copied.
 4. Now run the script. It will create a folder called GEOschemas. Inside the GEOschemas folder you will see three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. Your results will be in these three files.
 
-## Using the Adobe Illustrator template: geodatabaseTemplate.ait 
+## Using the Adobe Illustrator template:
 1. Open the geodatabaseTemplate.ait template in Adobe Illustrator. This template includes all the fonts, Icons, and graphics you will need to create your geodatabase schema.
 2. Copy the contents of the three text files that the script created and paste them unto the template.
 3. Use Adobe Illustrators EyeDropper tool, copy the formatting of the sample text to the text you pasted in step 2.
