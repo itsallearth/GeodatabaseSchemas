@@ -11,7 +11,7 @@ When you open the python script and look at line number 7 you will see the follo
 ```python
 db = r'C:\Users\Bruce\Documents\ArcGIS\Default.gdb'
 ```
-Replace  'GIS_MASTER.sde' with the name and path of any database that you want to diagram:
+Replace  'C:\Users\Bruce\Documents\ArcGIS\Default.gdb' with the name and path of any database that you want to diagram:
 ```python
 db = r'DatabaseConnections\YOUR_GEODATABASE_NAME.sde'
 ```
