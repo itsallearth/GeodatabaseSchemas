@@ -22,10 +22,9 @@ note: You can easily find the correct syntax for the database path by:
 4. Now run the script. It will create a folder called GEOschemas. Inside the GEOschemas folder you will see three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. Your results will be in these three files.
 
 ## Using the Adobe Illustrator template: geodatabaseTemplate.ait 
-The process of adding the text from running the script to Adobe Illustrator is pretty streight forward, however, some experience using Adobe Illustrator will be helpful.  The geodatabaseTemplate.ait template includes all the fonts, Icons, and graphics you will need to create your geodatabase schema.  
-1. Copy the contents of the three text files and paste them unto the template.  
-2. Use the EyeDropper tool to copy the formatting of the sample text to the text you pasted.  
-3. Copy the tables, feature classes and relationship classes (remove the sample text that is inside)
-4. Paste your text onto the appropriate table, feature class, relationship class etc.
-
-You will need to draw lines for relationships your database has.
+1. Open the geodatabaseTemplate.ait template in Adobe Illustrator. This template includes all the fonts, Icons, and graphics you will need to create your geodatabase schema.
+2. Copy the contents of the three text files that the script created and paste them unto the template.
+3. Use Adobe Illustrators EyeDropper tool, copy the formatting of the sample text to the text you pasted in step 2.
+4. Copy the graphical tables, feature classes and relationship classes (without the sample text).
+5. Now paste the text you formatted in step 3 onto the appropriate graphical tables, feature classes and relationship classes.
+6. You will need to draw lines that represent the schema relationships.
