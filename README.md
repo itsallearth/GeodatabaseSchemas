@@ -16,7 +16,7 @@ Replace  'GIS_MASTER.sde' with the name and path of any database that you want t
 workspace = env.workspace = r'DatabaseConnections\YOUR_GEODATABASE_NAME.sde'
 ```
 note: You can easily find the correct syntax for the database path by: 
-1. Opening ArcMap, opening the Python window. ![alt text](http://itsallearth.com/images/littelBoxArrow-.png "python window Icon")
+1. Opening ArcMap, opening the Python window. ![alt text](http://itsallearth.com/images/littleBoxArrow-.png "python window Icon")
 2. Then open the catalog window and dragg your database into the Python window: ![alt text](http://itsallearth.com/images/littelBoxArrowPython.png "python window Icon") that you already have open. This will paste the database path into the python window.  
 3. Copy that path and replace ```r'Database Connections\GIS_MASTER.sde'``` with the path you just copied.
 4. Now run the script. It will create a folder called GEOschemas. Inside the GEOschemas folder you will see three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. Your results will be in these three files.
