@@ -5,7 +5,7 @@ Here is a small portion of a completed geodatabase schema:
 ###Instructions:
 The Geodatabase Schema designer can create a geodatabase diagram of any ESRI database.  
 
-The script PrintGeoDatabaseSchemas.py will create a new folder called GEOschemas in your C: drive.  Inside the GEOschemas folder there will be three new text files: domains.txt, featureClasses.txt and relationshipClasses.txt. These files contain all the domains, feature classes, tables and relational classes in your geodatabase. 
+The script **PrintGeoDatabaseSchemas.py** will create a new folder called GEOschemas in your C: drive.  Inside the GEOschemas folder there will be three new text files: domains.txt, featureClasses.txt and relationshipClasses.txt. These files contain all the domains, feature classes, tables and relational classes in your geodatabase. 
 
 When you open the python script and look at line number 7 you will see the following:  
 ```python
@@ -22,7 +22,7 @@ note: You can easily find the correct syntax for the database path by:
 4. Now run the script. It will create a folder called GEOschemas. Inside the GEOschemas folder you will see three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. Your results will be in these three files.
 
 ## Using the Adobe Illustrator template:
-1. Open the geodatabaseTemplate.ait template in Adobe Illustrator. This template includes all the fonts, Icons, and graphics you will need to create your geodatabase schema.
+1. Open the **geodatabaseTemplate.ait** template in Adobe Illustrator. This template includes all the fonts, Icons, and graphics you will need to create your geodatabase schema.
 2. Copy the contents of the three text files that the script created and paste them unto the template.
 3. Use Adobe Illustrators EyeDropper tool, copy the formatting of the sample text to the text you pasted in step 2.
 4. Copy the graphical tables, feature classes and relationship classes (without the sample text).
