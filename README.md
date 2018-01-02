@@ -19,25 +19,13 @@ note: You can easily find the correct syntax for the database path by:
 1. Opening ArcMap, opening the Python window. ![alt text](http://itsallearth.com/images/littelBoxArrowSmall.png "python window Icon")
 2. Then open the catalog window and dragg your database into the Python window: ![alt text](http://itsallearth.com/images/littelBoxArrowPython.png "python window Icon") that you already have open. This will paste the database path into the python window.  
 3. Copy that path and replace ```r'Database Connections\GIS_MASTER.sde'``` with the path you just copied.
-4. Now run the script. It will create a folder called GEOschemas. Inside the GEOschemas folder you will see three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. The results will be in these three files.
+4. Now run the script. It will create a folder called GEOschemas. Inside the GEOschemas folder you will see three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. Your results will be in these three files.
 
-```python
-s = "Python syntax highlighting"
-print s
-```
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+## Using the Adobe Illustrator template: geodatabaseTemplate.ait 
+The process of adding the text from running the script to Adobe Illustrator is pretty streight forward, however, some experience using Adobe Illustrator will be helpful.  The geodatabaseTemplate.ait template includes all the fonts, Icons, and graphics you will need to create your geodatabase schema.  
+1. Copy the contents of the three text files and paste them unto the template.  
+2. Use the EyeDropper tool to copy the formatting of the sample text to the text you pasted.  
+3. Copy the tables, feature classes and relationship classes (remove the sample text that is inside)
+4. Paste your text onto the appropriate table, feature class, relationship class etc.
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+You will need to draw lines for relationships your database has.
