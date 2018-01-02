@@ -9,17 +9,17 @@ The script **PrintGeoDatabaseSchemas.py** will create a new folder called GEOsch
 
 When you open the python script and look at line number 7 you will see the following:  
 ```python
-workspace = env.workspace = r'DatabaseConnections\GIS_MASTER.sde'
+db = r'C:\Users\Bruce\Documents\ArcGIS\Default.gdb'
 ```
 Replace  'GIS_MASTER.sde' with the name and path of any database that you want to diagram:
 ```python
-workspace = env.workspace = r'DatabaseConnections\YOUR_GEODATABASE_NAME.sde'
+db = r'DatabaseConnections\YOUR_GEODATABASE_NAME.sde'
 ```
-note: You can easily find the correct syntax for the database path by: 
+note: Here is one way to find the correct path for your geodatabase: 
 1. Open ArcMap and then open the Python window. ![alt text](http://itsallearth.com/images/littleBoxArrow-.png "python arrow Icon")
 2. Then open the catalog window and dragg your database into the Python window: ![alt text](http://itsallearth.com/images/littelBoxArrowPython.png "python window Icon") that you already have open. This will paste the database path into the python window.  
 3. Copy that path and replace ```r'Database Connections\GIS_MASTER.sde'``` with the path you just copied.
-4. Run the script and a folder will be created in your C:/ called GEOschemas. Inside the GEOschemas folder there will be three text files: domains.txt, featureClasses.txt and relationshipClasses.txt.
+4. Run the script and a folder will be created in your C:/ called GEOschemas. Inside the GEOschemas folder there will be three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. These are where you will find all the schema inforation for your geodatabase.
 
 ## Using the Adobe Illustrator template:
 5. Open the **geodatabaseTemplate.ait** template in Adobe Illustrator. This template includes all the fonts, Icons, and graphics you will need to create your geodatabase schema.
