@@ -2,7 +2,7 @@
 Here is a small portion of a completed geodatabase schema:
 
 ![enter image description here](http://itsallearth.com/images/gdbDBdiagrams.JPG)
-##Instructions:
+## Instructions:
 The Geodatabase Schema designer can create a geodatabase diagram of any ESRI geo-database.  
 
 The script **PrintGeoDatabaseSchemas.py** will create a new folder called GEOschemas in your C: drive.  Inside the GEOschemas folder there will be three new text files: domains.txt, featureClasses.txt and relationshipClasses.txt. These files contain all the domains, feature classes, tables and relational classes in your geodatabase. 
