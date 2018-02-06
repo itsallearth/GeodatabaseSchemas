@@ -3,7 +3,7 @@ Here is a small portion of a completed geodatabase schema:
 
 ![enter image description here](http://itsallearth.com/images/gdbDBdiagrams.JPG)
 ###Instructions:
-The Geodatabase Schema designer can create a geodatabase diagram of any ESRI database.  
+The Geodatabase Schema designer can create a geodatabase diagram of any ESRI geo-database.  
 
 The script **PrintGeoDatabaseSchemas.py** will create a new folder called GEOschemas in your C: drive.  Inside the GEOschemas folder there will be three new text files: domains.txt, featureClasses.txt and relationshipClasses.txt. These files contain all the domains, feature classes, tables and relational classes in your geodatabase. 
 
@@ -15,9 +15,9 @@ Replace  'C:\Users\Bruce\Documents\ArcGIS\Default.gdb' with the name and path of
 ```python
 db = r'DatabaseConnections\YOUR_GEODATABASE_NAME.sde'
 ```
-note: Here is one way to find the correct path for your geodatabase: 
+note: Here is an easy way to find the correct path for your geodatabase: 
 1. Open ArcMap and then open the Python window ![alt text](http://itsallearth.com/images/littleBoxArrow-.png "python arrow Icon").
-2. Then open the catalog window and dragg your database into the Python window that you already have open ![alt text](http://itsallearth.com/images/littelBoxArrowPython.png "python window Icon") . This will paste the database path into the python window.  
+2. Then open the catalog window and drag your database into the Python window that you already have open ![alt text](http://itsallearth.com/images/littelBoxArrowPython.png "python window Icon") . This will paste the database path into the python window.  
 3. Copy that path and replace ```r'Database Connections\GIS_MASTER.sde'``` with the path you just copied.
 4. Run the script and a folder will be created in your C:/ called GEOschemas. Inside the GEOschemas folder there will be three text files: domains.txt, featureClasses.txt and relationshipClasses.txt. These are where you will find all the schema inforation for your geodatabase.
 
